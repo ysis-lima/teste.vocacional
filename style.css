@@ -1,0 +1,11 @@
+
+
+.inicio{
+    display: grid;
+    place-items: center;
+}
+
+.iniciar-teste{
+    width: 40px;
+    color: red;
+}
