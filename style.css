@@ -1,11 +1,32 @@
-
+html{
+    scroll-behavior: smooth;
+}
 
 .inicio{
     display: grid;
     place-items: center;
 }
 
-.iniciar-teste{
-    width: 40px;
-    color: red;
+.chamada-teste img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.texto-inicio{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    font-size: 100px;
+    color: #000;
+    mix-blend-mode: screen;
+}
+
+.iniciar-teste:hoover,
+.iniciar-teste:focus{
+    box-shadow: 0 0.5em 0 0 0, inset 3.5em 0 0 0;
+    transform: translateY(-0.25em);
 }
