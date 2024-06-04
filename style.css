@@ -2,8 +2,13 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #000000;
+    color: white;
+}
+
 header{
-	background: #000;
+	background: rgb(1, 0, 65);
 	padding: 20px 0;
 }
 
@@ -17,7 +22,6 @@ nav{
 	position: top;
 	top: 110px;
 	right: 0;
-    color: white;
 }
 
 nav li{
@@ -25,34 +29,97 @@ nav li{
 	margin: 0 0 0 15px;
 }
 
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul:hover li a{
+    color: #0EED04;
+}
+
+ul:hover li a:not(:hover){
+    color: white;
+    opacity: 0.3;
+    filter: blur(1px);
+}
+
+
 /*Página inicial*/
+
+.titulo{
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 2px;
+}
+
 .inicio{
     display: grid;
     place-items: center;
     padding: 20px;
 }
 
-.iniciar-teste:hover,
-.iniciar-teste:focus{
-    box-shadow: 0 0.5em 0 0 0, inset 3.5em 0 0 0;
-    transform: translateY(-0.25em);
+.texto-inicio{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.titulo, .texto-inicio{
+    text-align: center;
+    width: 25%;
+}
+
+.iniciar-teste{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px auto;
+    background-color: #0EED04;
+}
+
+.iniciar-teste:hover{
+    border: none;
+    box-shadow: 0 0 10px #0EED04;
+}
+
+.iniciar-teste:active{
+    background: transparent;
+    border: none;
+    box-shadow: 0 0 10px #0EED04;
 }
 
 h3{
     font-weight: bold;
+    font-size: 2em;
     padding: 5px;
 }
+
 .SobreDS{
     padding: 20px;
+    display: grid;
+    align-items: right;
+    text-align: right;
+    width: 0 0 300px 0;
 }
 
 .SobreADM{
     padding: 20px;
+    display: grid;
+    place-items: left;
+    text-align: left;
+    width: 0 300px 0 0;
 }
 
 footer{
     text-align: center;
-    background-color: #000;
+    background-color: rgb(1, 0, 65);;
     color: white;
 }
 
