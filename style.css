@@ -15,10 +15,11 @@ header{
 .menu{
 	position: top;
 	width: 940px;
+    height: 30px;
 	margin: 0 auto;
 }
 
-nav{
+/*nav{
 	position: top;
 	top: 110px;
 	right: 0;
@@ -27,6 +28,11 @@ nav{
 nav li{
 	display: inline-block;
 	margin: 0 0 0 15px;
+}*/
+
+ul{
+    display: flex;
+    gap: 72px;
 }
 
 ul li a{
