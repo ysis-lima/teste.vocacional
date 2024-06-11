@@ -62,8 +62,9 @@ ul:hover li a:not(:hover){
 
 .dadosForm{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(img/convite_polo-workshop.jpg);
-    background-size: 50%;
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .box{
@@ -216,3 +217,31 @@ footer{
 }
 
 /*Página de teste*/
+
+@media only screen 
+  and (min-device-width: 180px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+   
+    .dadosForm{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(img/banner-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .box{
+        display: grid;
+        place-items: center;
+        color: white;
+        position: absolute;
+        /*top: 50%;
+        left: 50%;*/
+        transform: translate(-50%,-50%);
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 15px;
+        width: 20%;
+    }
+
+}
