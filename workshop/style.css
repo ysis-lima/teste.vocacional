@@ -1,0 +1,138 @@
+body {
+
+}
+
+.cor_html {
+  background: linear-gradient(
+      to right,
+      green,
+      #00fc97,
+      rgb(0, 255, 64)
+  )  
+}
+
+
+
+.cor_cabeçalho {
+  background: linear-gradient(45deg, rgb(28, 215, 240), rgb(144, 144, 236), 70%,rgb(238, 132, 238) , rgb(240, 83, 240));
+  padding: 20px;
+  padding-top: 20px;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  }
+
+.logo {
+  width: 200px; 
+  height: auto;
+  
+  }
+  
+.company-name {
+  margin-left: 20px; 
+  font-size: 24px;
+  font-weight: bold; 
+  color:  #000000;
+  }
+
+nav {
+  background-color: #040c53;
+  padding: 10px;
+  margin-left: 10%;
+}
+    
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+    
+nav ul li {
+  margin: 0 10px;
+}
+    
+nav ul li a {
+  text-decoration: none;
+  color: #9064f5;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+    
+nav ul li a:hover {
+  background-color: #492e55;
+  color: #fff;
+}
+
+
+/* Paralax */
+
+#banner {
+  background-image: url("convite.jpeg");
+}
+
+
+
+#banner {
+  background-color: blue;
+  text-align: center;
+  padding: 200px 200px;
+}
+
+#banner.parallax {
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:auto;
+}
+    
+.texto{
+  font-size: 50px;
+  color: #000000;
+  text-shadow: 
+  -2px -2px 1px #ffffff, 
+  -2px 2px 1px #fff6f6,                    
+  2px -2px 1px #ffffff,                  
+  2px 1px 1px #ffffff;
+}
+
+.p1 {
+  font-size: larger;
+   color: #000000;
+   text-shadow: 
+   -1px -1px 0px #ffffff, 
+   -1px 1px 0px #fffdfd,                    
+    1px -1px 0px #fffdfd,                  
+    1px 0px 0px #ffffff;
+}
+
+
+  
+#banner1.parallax1 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-size: cover;
+}
+
+
+
+
+.container p {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+
+    /* Estilos para as seções */
+    section {
+      padding: 80px 0;
+      text-align: center;
+    }
